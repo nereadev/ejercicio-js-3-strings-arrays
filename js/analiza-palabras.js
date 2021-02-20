@@ -1,6 +1,6 @@
 /*Prueba en una consola a parte de que la función analizaPalabras() funciona. */
 
-const prueba = ["Hola", "cable", "casa"];
+/*const prueba = ["Hola", "cable", "casa"];*/
 
 function analizaPalabras(arrayPalabras) {
 
@@ -28,4 +28,4 @@ function analizaPalabras(arrayPalabras) {
     console.log("```");
 }
 
-console.log(analizaPalabras(prueba));
+/*console.log(analizaPalabras(prueba));*/
