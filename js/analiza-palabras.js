@@ -2,9 +2,10 @@ function analizaPalabras(arrayPalabras) {
 
     console.log("```");
 
-    arrayPalabras.filter(palabra => {
+    for (let i in arrayPalabras) {
 
         console.log(`#######`);
+        const palabra = arrayPalabras[i];
         console.log(`Palabra ${(arrayPalabras.indexOf(palabra)) + 1}: ${palabra}`);
         console.log(`Nº caracteres: ${palabra.length}`);
         console.log(`Deletreo: ${palabra.split("").join().replaceAll(",", "-")}`);
@@ -15,10 +16,12 @@ function analizaPalabras(arrayPalabras) {
         console.log(`La palabra ${palabra.includes(noincluye)
             ? 'sí' : 'no'} contiene "ble"`);
 
-    });
+    };
 
     console.log(`#######`);
     console.log("```");
 }
 
-
+/*let in in palabras = posición
+let it of palabras = valor
+comprobar con cosole.log(palabras(i, palabra)):*/
